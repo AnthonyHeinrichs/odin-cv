@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;600&display=swap');
+
+:root {
+  --main-font-family: 'Chivo', 'Open Sans', sans-serif;
+  --main-theme-color: #E4E4E4;
+  --main-text-color: #161010;
+}

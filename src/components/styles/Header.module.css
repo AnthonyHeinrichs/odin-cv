@@ -1,16 +1,17 @@
-@import './theme/main.module.css';
+@import './theme/main.css';
 
 .header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: var(--main-theme-color);
-  height: 200px;
+  height: 100px;
   width: 100vw;
 }
 
 .title {
   font-family: var(--main-font-family);
+  font-weight: 400;
   color: var(--main-text-color);
-  margin-left: 24px;
+  font-size: 48px;
 }
