@@ -16,3 +16,34 @@
   border: 1px solid #BBBBBB;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.main {
+  display: flex;
+}
+
+.mainTitle, .educationTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInfo > input {
+  min-width: 85%;
+  margin: 12px 12px 4px 12px;
+}
+
+.headShot {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  min-width: 95%;
+  min-height: 80px;
+  max-height: 80px;
+  margin: 12px 12px 4px 12px;
+  resize: none;
+}
