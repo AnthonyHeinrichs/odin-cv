@@ -1,4 +1,4 @@
-@import './theme/main.css';
+@import "./theme/main.css";
 
 .title {
   font-family: var(--sub-font-family);
@@ -13,7 +13,7 @@
   width: 680px;
   background-color: var(--main-theme-color);
   margin-bottom: 24px;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -21,15 +21,19 @@
   display: flex;
 }
 
-.mainTitle, .educationTitle {
+.mainTitle,
+.educationTitle, 
+.experienceTitle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.mainInfo > input, .education > input {
+.mainInfo > input,
+.education > input,
+.experience > input {
   min-width: 85%;
-  margin: 12px 12px 4px 12px;
+  margin: 4px 12px 0px 12px;
 }
 
 .headShot {
@@ -44,16 +48,18 @@
   min-width: 95%;
   min-height: 80px;
   max-height: 80px;
-  margin: 12px 12px 4px 12px;
+  margin: 12px 12px 0px 12px;
   resize: none;
 }
 
-.education {
+.education,
+.experience {
   display: flex;
   flex-direction: column;
 }
 
-.schoolDates {
+.schoolDates,
+.workDates {
   display: flex;
   margin-left: 12px;
   margin-right: 12px;
@@ -67,6 +73,27 @@
   background-color: black;
 }
 
-.educationBtn {
-  margin: 12px 12px 12px 12px;
+.educationBtn,
+.experienceBtn {
+  margin: 4px 12px 12px 12px;
+}
+
+.skill, .social {
+  margin-left: 12px;
+  display: flex;
+  flex-grow: 3;
+  min-width: 85%;
+}
+
+.skill > input, .social > input {
+  width: 75%;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+.skill > button, .social > button {
+  margin: 4px 12px 0px 12px;
+  width: 100px;
+  height: 24px;
+  margin-right: 12px;
 }
