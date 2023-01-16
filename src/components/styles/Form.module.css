@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.mainInfo > input {
+.mainInfo > input, .education > input {
   min-width: 85%;
   margin: 12px 12px 4px 12px;
 }
@@ -46,4 +46,27 @@
   max-height: 80px;
   margin: 12px 12px 4px 12px;
   resize: none;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.schoolDates {
+  display: flex;
+  margin-left: 12px;
+  margin-right: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  width: 80px;
+  height: 2px;
+  background-color: black;
+}
+
+.educationBtn {
+  margin: 12px 12px 12px 12px;
 }
