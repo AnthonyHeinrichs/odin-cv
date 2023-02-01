@@ -6,20 +6,52 @@ const FormExperience = () => {
       <h3 className={styles.experienceTitle}>Experience</h3>
       <div className={styles.experience}>
         <div className={styles.workDates}>
-          <input type="text" name="workFrom" placeholder="From"></input>
+          <label for="workFrom"></label>
+          <input
+            id="workFrom"
+            type="text"
+            name="workFrom"
+            placeholder="From"
+          ></input>
           <div className={styles.line}></div>
-          <input type="text" name="workTo" placeholder="To"></input>
+          <label for="workTo"></label>
+          <input id="workTo" type="text" name="workTo" placeholder="To"></input>
         </div>
-        <input type="text" name="business" placeholder="Company"></input>
-        <input type="text" name="location" placeholder="Location"></input>
-        <input type="text" name="title" placeholder="Title"></input>
+        <label for="company"></label>
+        <input
+          id="company"
+          type="text"
+          name="business"
+          placeholder="Company"
+        ></input>
+        <label for="location"></label>
+        <input
+          id="location"
+          type="text"
+          name="location"
+          placeholder="Location"
+        ></input>
+        <label for="title"></label>
+        <input id="title" type="text" name="title" placeholder="Title"></input>
         <button className={styles.experienceBtn}>+ Add experience</button>
         <div className={styles.skill}>
-          <input type="text" name="skill" placeholder="Skill"></input>
+          <label for="skill"></label>
+          <input
+            id="skill"
+            type="text"
+            name="skill"
+            placeholder="Skill"
+          ></input>
           <button className={styles.skillBtn}>+ Add skill</button>
         </div>
         <div className={styles.social}>
-          <input type="text" name="social" placeholder="Social"></input>
+          <label for="social"></label>
+          <input
+            id="social"
+            type="text"
+            name="social"
+            placeholder="Social"
+          ></input>
           <button className={styles.socialBtn}>+ Add social</button>
         </div>
       </div>
