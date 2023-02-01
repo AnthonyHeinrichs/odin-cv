@@ -95,5 +95,24 @@
   margin: 4px 12px 0px 12px;
   width: 100px;
   height: 24px;
-  margin-right: 12px;
+}
+
+.formActionBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdfBtn, .resetBtn {
+  margin: 24px 12px 0px 12px;
+  width: 45%;
+  border: none;
+  height: 48px;
+}
+
+.pdfBtn {
+  background-color: #AEFFA0;
+}
+
+.resetBtn {
+  background-color: #B8B8B8;
 }
