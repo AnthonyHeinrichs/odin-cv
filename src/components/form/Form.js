@@ -2,6 +2,7 @@ import styles from "../styles/Form.module.css";
 import FormMain from "./FormMain"
 import FormEducation from "./FormEducation"
 import FormExperience from "./FormExperience"
+import FormActions from "./FormActions"
 
 const Form = () => {
   return (
@@ -14,6 +15,7 @@ const Form = () => {
           <FormMain />
           <FormEducation />
           <FormExperience />
+          <FormActions />
         </form>
       </div>
     </div>
